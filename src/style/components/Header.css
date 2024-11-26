@@ -1,0 +1,26 @@
+.head-cont{
+    margin: 1vh;
+}
+
+.head-text{
+    text-align: center;
+    font-size: x-large;
+    font-weight: bolder;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* Smaller screens (e.g., mobile) */
+@media only screen and (max-width: 600px) {
+    .head-text {
+      font-size: large;
+      text-align: center; /* Center-align for better mobile UX */
+    }
+  }
+  
+  /* Larger screens (e.g., desktops) */
+  @media only screen and (min-width: 1025px) {
+    .head-text {
+      font-size: xx-large; /* Make the heading more prominent on larger screens */
+    }
+  }
+  

@@ -1,0 +1,95 @@
+.form-container {
+    background: whitesmoke;
+    padding: 20px 30px;
+    border-radius: 10px;
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    margin-left: 70vh;
+    margin-top: 7vh;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #333;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+
+input:focus {
+    border-color: black;
+    outline: none;
+}
+@media only screen and (max-width: 768px) {
+    .form-container {
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 5vh;
+      padding: 15px;
+    }
+  
+    input {
+      font-size: 16px;
+    }
+  }
+
+  /* Base styles for the container */
+.role-cont {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+/* Base styles for the dropdown */
+.ui.dropdown {
+    width: 100%;
+    max-width: 300px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: #fff;
+    transition: all 0.3s ease;
+}
+
+/* On hover, give the dropdown a subtle effect */
+.ui.dropdown:hover {
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+/* Responsive styles for small screens */
+@media (max-width: 768px) {
+    .ui.dropdown {
+        font-size: 14px;
+        padding: 8px;
+    }
+}
+
+/* Additional styles for very small screens */
+@media (max-width: 480px) {
+    .ui.dropdown {
+        font-size: 12px;
+        padding: 6px;
+    }
+}

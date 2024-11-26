@@ -1,0 +1,66 @@
+.btn-cont {
+    margin:auto; /* Centers the container horizontally */
+    display: flex;
+    justify-content: center; /* Ensures buttons inside align neatly */
+    gap: 20px; /* Adds consistent spacing between buttons */
+}
+
+.btn-cont:last-child {
+    margin-right: 0; /* Avoids excessive spacing */
+}
+
+@media only screen and (max-width: 768px) {
+    .btn-cont {
+      flex-direction: column; /* Stacks buttons vertically on smaller screens */
+      align-items: center;
+      margin-top: 10vh; /* Adjust vertical spacing */
+    }
+  }
+  
+  .profile-card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 400px;
+    width: 90%;
+    text-align: center;
+    transition: transform 0.2s, box-shadow 0.2s;
+    margin: 10vh auto; /* Center card horizontally and vertically */
+}
+
+.profile-details p {
+    margin: 10px 0;
+    font-size: 16px;
+    color: #555;
+}
+
+.profile-details strong {
+    color: #000;
+}
+
+.profile-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .profile-card {
+        margin-top: 5vh; /* Adjust for smaller screens */
+        padding: 15px; /* Reduce padding for smaller screens */
+    }
+    .profile-details p {
+        font-size: 14px; /* Adjust text size */
+    }
+}
+
+@media (max-width: 480px) {
+    .profile-card {
+        width: 95%; /* Use more screen width on very small devices */
+        margin: 5vh auto;
+    }
+    .profile-details p {
+        font-size: 13px;
+    }
+}

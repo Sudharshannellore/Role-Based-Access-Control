@@ -1,0 +1,30 @@
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0;
+    background-color: white;
+  }
+  
+  /* Mobile devices (max-width: 600px) */
+  @media only screen and (max-width: 600px) {
+    body {
+      font-size: 14px; /* Adjust font size for smaller screens */
+      background-color: #f0f0f0; /* Optional background color change */
+    }
+  }
+  
+  /* Tablets (min-width: 601px and max-width: 1024px) */
+  @media only screen and (min-width: 601px) and (max-width: 1024px) {
+    body {
+      font-size: 16px;
+      background-color: #e6e6e6;
+    }
+  }
+  
+  /* Desktops (min-width: 1025px) */
+  @media only screen and (min-width: 1025px) {
+    body {
+      font-size: 18px;
+      background-color: white;
+    }
+  }
+  

@@ -1,0 +1,19 @@
+.btn-cont {
+    margin: 20vh auto 0 auto; /* Centers the container horizontally */
+    display: flex;
+    justify-content: center; /* Ensures buttons inside align neatly */
+    gap: 20px; /* Adds consistent spacing between buttons */
+}
+
+.btn-cont:last-child {
+    margin-right: 0; /* Avoids excessive spacing */
+}
+
+@media only screen and (max-width: 768px) {
+    .btn-cont {
+      flex-direction: column; /* Stacks buttons vertically on smaller screens */
+      align-items: center;
+      margin-top: 10vh; /* Adjust vertical spacing */
+    }
+  }
+  

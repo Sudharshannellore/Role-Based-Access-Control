@@ -1,0 +1,28 @@
+button {
+    background-color: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 8px;
+    width: 100%;
+    max-width: 150px;
+    height: auto;
+    padding: 10px;
+    font-size: 1rem;
+    transition: 0.3s;
+  }
+  
+  button:hover {
+    background-color: #fff;
+    box-shadow: 0 0 0 5px black;
+    color: black;
+  }
+  
+  
+  @media only screen and (max-width: 600px) {
+    button {
+      max-width: 120px; /* Slightly smaller button on mobile */
+      font-size: 0.9rem;
+    }
+  }
+  
